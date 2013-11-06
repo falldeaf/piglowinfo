@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="General">
+                <setting label="2000" type="slider" id="brightness" default="20" range="0,255"/>
+                <setting label="2001" type="labelenum" id="arm1" default="volume" values="volume|playmarker|cache|temp|space|mem|battery"/>
+                <setting label="2002" type="labelenum" id="arm2" default="playmarker" values="volume|playmarker|cache|temp|space|mem|battery"/>
+                <setting label="2003" type="labelenum" id="arm3" default="mem" values="volume|playmarker|cache|temp|space|mem|battery"/>
+	</category>
+</settings>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<addon
+		id="piglowinfo"
+		version="0.0.1"
+		name="PiGlow Information Display"
+		provider-name="falldeaf"
+	>
+	<requires> </requires>
+	<extension point="xbmc.service" library="default.py" start="login">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Show information on your Raspberry Pi's Piglow addon</summary>
+		<description>This addon allows you to choose from different information sources and output it to the Piglow's arm's as percentages</description>
+		<platform>linux</platform>
+	</extension>
+</addon>
